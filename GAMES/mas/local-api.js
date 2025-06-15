@@ -20,7 +20,7 @@ export function getFlightResult(bet) {
     }
     const gamesLeft = Math.floor(Math.random() * (25 - 10 + 1)) + 10;
     const multiplier = (Math.floor(Math.random() * (900 - 300 + 1)) + 300) / 10;
-    const chance = Math.floor(Math.random() * (95 - 65 + 1)) + 65;
+    const chance = Math.floor(Math.random() * (95 - 80 + 1)) + 80;
     const message = `Вам осталось ${gamesLeft} игр со ставкой ${bet}, до заноса X${multiplier} с шансом ${chance}%`;
     return { message };
   } catch (error) {
@@ -38,7 +38,7 @@ export function getFlightResult2(bet) {
     }
     const gamesLeft = Math.floor(Math.random() * (25 - 10 + 1)) + 10;
     const multiplier = (Math.floor(Math.random() * (900 - 300 + 1)) + 300) / 10;
-    const chance = Math.floor(Math.random() * (95 - 65 + 1)) + 65;
+    const chance = Math.floor(Math.random() * (95 - 80 + 1)) + 80;
     const message = `You have ${gamesLeft} games left with bet of ${bet} before hitting X${multiplier} with a ${chance}% chance`;
     return { message };
   } catch (error) {

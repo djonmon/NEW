@@ -267,7 +267,7 @@ body {
 
 .betting-panel {
     position: fixed;
-    top: 35vh;
+    top: 60vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 380px;
